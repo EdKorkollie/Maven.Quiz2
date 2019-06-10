@@ -30,7 +30,7 @@ public class Router {
 
         String jon = "";
         for(Map.Entry<String, String > entry : map.entrySet()) {
-            jon += String.format("%s -> %s\n" + entry.getKey() + entry.getValue());
+            jon += String.format(entry.getKey() + entry.getValue());
         }
         return jon;
     }
