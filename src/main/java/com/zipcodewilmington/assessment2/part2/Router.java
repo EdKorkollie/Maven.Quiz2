@@ -28,10 +28,6 @@ public class Router {
     }
     public String toString() {
 
-        String jon = "";
-        for(Map.Entry<String, String > entry : map.entrySet()) {
-            jon += String.format(entry.getKey() + entry.getValue());
-        }
-        return jon;
+        return null;
     }
 }
